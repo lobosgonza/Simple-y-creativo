@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<!-- css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title> Simple y Creativo</title>
+
+
+  </head>
+
+  <body>
+    <div class="cover-container d-flex flex-column">
+          <!-- <div class="cover-container d-flex mx-auto w-100 p-3 flex-column"> -->
+  <header class="masthead mb-auto section-padding-nav">
+    <div class="inner">
+<h3 class="masthead-brand"><a href="/">Simple y Creativo</a></h3>
+
+      <nav class="nav nav-masthead justify-content-center">
+        <a
+        <% if (page_name === 'home') { %>
+          class = "nav-link active"
+          <% }else{ %>
+            class = "nav-link"
+            <%}%>
+            href="/">Home</a>
+        <a <% if (page_name === 'quienes-somos') { %>
+          class = "nav-link active"
+          <% }else{ %>
+            class = "nav-link"
+            <%}%>  href="/quienes-somos">Quienes Somos</a>
+        <a <% if (page_name === 'servicios') { %>
+          class = "nav-link active"
+          <% }else{ %>
+            class = "nav-link"
+            <%}%>  href="/servicios">Servicios</a>
+          <a <% if (page_name === 'contactanos') { %>
+            class = "nav-link active"
+            <% }else{ %>
+              class = "nav-link"
+              <%}%>  href="/contactanos">Contacto</a>
+      </nav>
+    </div>
+
+  </header>

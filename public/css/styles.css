@@ -1,0 +1,167 @@
+.section-padding-nav{
+    padding: 0% 5%;
+}
+.section-padding-title{
+  padding: 10% 15% 10%;
+}
+
+.section-padding{
+  padding: 5% 15%;
+}
+
+.section-padding-footer{
+  padding: 5% 5% 2%;
+}
+
+
+.max-width{
+  max-width: 55em;
+}
+/*
+ * Globals
+ */
+
+/* Links */
+a{
+  color: #f16821;
+}
+
+a:focus,
+a:hover {
+  color: #ad4618;
+  text-decoration: none;
+}
+
+/* Custom default button */
+.btn-secondary{
+  color: #fff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #f16821;
+  border: .05rem solid #fff;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #fff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #ad4618;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+
+  background-color: #faf4f4
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #f16821;
+  /* text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
+}
+
+/* Fonts */
+
+p{
+  font-size: 1.5rem;
+}
+
+.cover-container {
+  /* max-width: 55em; */
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+
+/* background-color */
+}
+.color-yellow{
+  background-color: #ede682;
+}
+.color-orange{
+  background-color: #febf63;
+}
+.color-partial{
+  background-color: #f16821
+}
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: #ad4618;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #f16821;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #f16821;
+  border-bottom-color: #f16821;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+/*
+* Img
+*/
+.img-prop{
+  width: 200px;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: #faf4f4;
+}
+.nav-mastfooter{
+  color: #faf4f4;
+}
+.nav-mastfooter:hover{
+  color: #ad4618;
+}

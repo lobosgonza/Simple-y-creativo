@@ -1,0 +1,15 @@
+{
+  "name": "syc",
+  "version": "1.0.0",
+  "description": "Simple y Creativo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gonzalo Lobos",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  }
+}
