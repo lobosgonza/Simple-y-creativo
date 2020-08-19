@@ -15,9 +15,7 @@
 .padding-bottom{
   padding-bottom: 3%;
 }
-.jumbotron{
 
-}
 /* .max-width{
   max-width: 55em;
 } */
@@ -58,8 +56,8 @@ a:hover {
 }
 
 .btn-title:hover{
-  background-color: #99beff;
-  color: #f4f4f4;
+  background-color: #f4f4f4;
+  color: #ad4618;
 }
 /*
  * Base structure
@@ -89,6 +87,10 @@ h3,h4, label{
     font-family: 'Roboto', sans-serif;
 }
 
+label{
+  margin-top: 0.5rem
+}
+
 p, footer, li{
   font-size: 1.3rem;
   font-family: 'Roboto', sans-serif;
@@ -99,6 +101,16 @@ footer li {
 }
 footer p {
   margin-bottom: 0;
+}
+footer ul{
+  padding-left: 0;
+}
+
+@media (max-width: 720px){
+.copyright{
+  font-size: 1rem;
+
+}
 }
 
 .font-claro{
@@ -228,7 +240,9 @@ max-width: 100%;
 .img-retrato{
   padding: 5% 20% 10%;
 }
-
+.img-items{
+  padding: 4%;
+}
 
 .test-img{
   background-color: blue;
@@ -247,4 +261,11 @@ max-width: 100%;
 }
 .nav-mastfooter:hover{
   color: #f16821;
+}
+
+
+/* succes failure seccion */
+
+.jumbotron{
+  background-color: #f4f4f4;
 }

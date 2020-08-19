@@ -39,6 +39,7 @@ app.post("/", function(req,res){
   const nombre = req.body.name;
   const mail = req.body.email;
   const texto = req.body.textBox;
+  const numero = req.body.number;
 
   var data = {
     members: [{
@@ -46,6 +47,7 @@ app.post("/", function(req,res){
       status: "subscribed",
       merge_fields:{
           NAME: nombre,
+          NUMBER: numero,
           TEXTO: texto,
           }
       }]
